@@ -1,0 +1,35 @@
+{
+  "name": "discord-music-ytdl",
+  "version": "1.0.0",
+  "description": "Use youtube on Discord with ytdl",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" : "node index.js"
+  },
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GreepTheSheep/discord-music-ytdl.git"
+  },
+  "keywords": [
+    "Discord",
+    "Music",
+    "Youtube"
+  ],
+  "author": "Greep",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GreepTheSheep/discord-music-ytdl/issues"
+  },
+  "homepage": "https://github.com/GreepTheSheep/discord-music-ytdl#readme",
+  "dependencies": {
+    "discord.js": "^11.5.1",
+    "erlpack": "github:discordapp/erlpack",
+    "ffmpeg-binaries": "^4.0.0",
+    "fluent-ffmpeg": "^2.1.2",
+    "opusscript": "0.0.7",
+    "uws": "^100.0.1",
+    "ytdl-core": "^1.0.7"
+  }
+}
